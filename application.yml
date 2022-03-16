@@ -1,0 +1,16 @@
+
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    mode: HTML
+
+
+book:
+  name: 快思慢想
+  author: 康納曼
+  isbn: ${random.uuid}
+  description: ${book.name}，這本書還不錯
+
+
+# 配置文件檔名格式：application-{profile}.yml
